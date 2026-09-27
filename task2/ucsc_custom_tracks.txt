@@ -1,0 +1,5 @@
+# Task 2 - pasted into UCSC Genome Browser (hg38) > My Data > Custom Tracks
+# then searched PGD; reads set to squish, coverage to full, GENCODE V50 showing all transcripts
+
+track type=bigWig name="MCF7_coverage" description="SGNex MCF7 directRNA rep1 run1 coverage" bigDataUrl=http://sg-nex-data.s3.amazonaws.com/data/sequencing_data_ont/genome_browser_data/bigwig/SGNex_MCF7_directRNA_replicate1_run1.bigwig
+track type=bigBed name="MCF7_reads" description="SGNex MCF7 directRNA rep1 run1 aligned reads" bigDataUrl=http://sg-nex-data.s3.amazonaws.com/data/sequencing_data_ont/genome_browser_data/bigbed/SGNex_MCF7_directRNA_replicate1_run1.bigbed

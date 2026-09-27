@@ -1,0 +1,75 @@
+Script started on 2026-09-26 02:01:28+00:00 [COMMAND="echo '$ nextflow run main.nf -resume -with-report report_scenario2.html -with-timeline timeline_scenario2.html --reads '/home/ubuntu/task3/fastq/*.fastq.gz' --refFa /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa --refGtf /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.91.gtf --outdir results_scenario2 --annotations false'; nextflow run main.nf -resume -with-report report_scenario2.html -with-timeline timeline_scenario2.html --reads '/home/ubuntu/task3/fastq/*.fastq.gz' --refFa /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa --refGtf /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.91.gtf --outdir results_scenario2 --annotations false" <not executed on terminal>]
+$ nextflow run main.nf -resume -with-report report_scenario2.html -with-timeline timeline_scenario2.html --reads /home/ubuntu/task3/fastq/*.fastq.gz --refFa /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.dna_sm.primary_assembly.fa --refGtf /home/ubuntu/task3/reference/Homo_sapiens.GRCh38.91.gtf --outdir results_scenario2 --annotations false
+
+[1m[38;5;232m[48;5;43m N E X T F L O W [0;2m  ~  [mversion 26.04.6[m
+[K
+Launching[35m `main.nf` [0;2m[[0;1;36mcondescending_ritchie[0;2m] [0;36mrevision: [0;36med4a6f8fe7[m
+[K
+[2m[[0;34m-        [0;2m] [0;2m[mREAD_QC        -[K
+[2m[[0;34m-        [0;2m] [0;2m[mMINIMAP2_ALIGN -[K
+[2m[[0;34m-        [0;2m] [0;2m[mSAM_TO_BAM     -[K
+[2m[[0;34m-        [0;2m] [0;2m[mALIGN_QC       -[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_CHECK       -[K
+[6A
+[2m[[0;34m-        [0;2m] [0;2m[mREAD_QC        -[K
+[2m[[0;34m-        [0;2m] [0;2m[mMINIMAP2_ALIGN -[K
+[2m[[0;34m-        [0;2m] [0;2m[mSAM_TO_BAM     -[K
+[2m[[0;34m-        [0;2m] [0;2m[mALIGN_QC       -[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_CHECK       -[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_REPORT      -[K
+[2m[[0;34m-        [0;2m] [0;2m[mBAMBU          -[K
+[8A
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ee/75b17fa4d5be54c5fe894ff3389f94ee/75b17f]8;;[0;2m] [0;2m[mREA…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/8f/cee0bed8b81d8bfe15480080f1cac88f/cee0be]8;;[0;2m] [0;2m[mMIN…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/2f/8f80e46d035dd6c1405df69329ef3b2f/8f80e4]8;;[0;2m] [0;2m[mSAM…t116_cDNA_replicate1_run6)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/70/408c460c9e4bd86dc5fcfe70b53d8470/408c46]8;;[0;2m] [0;2m[mALI…K562_cDNA_replicate1_run3)[2m |[m 4 of 4[2m, cached: 4[m[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_CHECK                       -[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_REPORT                      -[K
+[2m[[0;34m-        [0;2m] [0;2m[mBAMBU                          -[K
+[8A
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ee/75b17fa4d5be54c5fe894ff3389f94ee/75b17f]8;;[0;2m] [0;2m[mREA…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/8f/cee0bed8b81d8bfe15480080f1cac88f/cee0be]8;;[0;2m] [0;2m[mMIN…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/2f/8f80e46d035dd6c1405df69329ef3b2f/8f80e4]8;;[0;2m] [0;2m[mSAM…t116_cDNA_replicate1_run6)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/70/408c460c9e4bd86dc5fcfe70b53d8470/408c46]8;;[0;2m] [0;2m[mALI…K562_cDNA_replicate1_run3)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_CHECK                       -[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_REPORT                      -[K
+[2m[[0;34m-        [0;2m] [0;2m[mBAMBU                          -[K
+[8A
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ee/75b17fa4d5be54c5fe894ff3389f94ee/75b17f]8;;[0;2m] [0;2m[mREA…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/8f/cee0bed8b81d8bfe15480080f1cac88f/cee0be]8;;[0;2m] [0;2m[mMIN…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/2f/8f80e46d035dd6c1405df69329ef3b2f/8f80e4]8;;[0;2m] [0;2m[mSAM…t116_cDNA_replicate1_run6)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/70/408c460c9e4bd86dc5fcfe70b53d8470/408c46]8;;[0;2m] [0;2m[mALI…K562_cDNA_replicate1_run3)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/e5/fab53ed5fb468bb20a23d196e042f6e5/fab53e]8;;[0;2m] [0;2m[mQC_…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m-        [0;2m] [0;2m[mQC_REPORT                      -[K
+[2m[[0;34m-        [0;2m] [0;2m[mBAMBU                          -[K
+[33mWARN: QC FAIL: SGNex_Hct116_directRNA_replicate6_run1 (see results_scenario2/qc/qc_summary.tsv)[39m[K
+[10A
+[2mexecutor >  local (1)[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ee/75b17fa4d5be54c5fe894ff3389f94ee/75b17f]8;;[0;2m] [0;2m[mREA…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/8f/cee0bed8b81d8bfe15480080f1cac88f/cee0be]8;;[0;2m] [0;2m[mMIN…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/2f/8f80e46d035dd6c1405df69329ef3b2f/8f80e4]8;;[0;2m] [0;2m[mSAM…t116_cDNA_replicate1_run6)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/70/408c460c9e4bd86dc5fcfe70b53d8470/408c46]8;;[0;2m] [0;2m[mALI…K562_cDNA_replicate1_run3)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/e5/fab53ed5fb468bb20a23d196e042f6e5/fab53e]8;;[0;2m] [0;2m[mQC_…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/a8/f65e6208eb1fa39ca5eac0f94eb923a8/f65e62]8;;[0;2m] [0;2m[mQC_REPORT                     [2m |[m 1 of 1[2m, cached: 1[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ef/62eaf2298dc6f8fad41dfee99b5387ef/62eaf2]8;;[0;2m] [0;2m[mBAMBU                         [2m |[m 0 of 1[K
+[33mWARN: QC FAIL: SGNex_Hct116_directRNA_replicate6_run1 (see results_scenario2/qc/qc_summary.tsv)[39m[K
+[11A
+[2mexecutor >  local (1)[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ee/75b17fa4d5be54c5fe894ff3389f94ee/75b17f]8;;[0;2m] [0;2m[mREA…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/8f/cee0bed8b81d8bfe15480080f1cac88f/cee0be]8;;[0;2m] [0;2m[mMIN…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/2f/8f80e46d035dd6c1405df69329ef3b2f/8f80e4]8;;[0;2m] [0;2m[mSAM…t116_cDNA_replicate1_run6)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/70/408c460c9e4bd86dc5fcfe70b53d8470/408c46]8;;[0;2m] [0;2m[mALI…K562_cDNA_replicate1_run3)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/e5/fab53ed5fb468bb20a23d196e042f6e5/fab53e]8;;[0;2m] [0;2m[mQC_…directRNA_replicate1_run1)[2m |[m 4 of 4[2m, cached: 4[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/a8/f65e6208eb1fa39ca5eac0f94eb923a8/f65e62]8;;[0;2m] [0;2m[mQC_REPORT                     [2m |[m 1 of 1[2m, cached: 1[0;32m ✔[m[K
+[2m[[0;34m]8;;file:///home/ubuntu/task5/work/ef/62eaf2298dc6f8fad41dfee99b5387ef/62eaf2]8;;[0;2m] [0;2m[mBAMBU                         [2m |[m 1 of 1[32m ✔[m[K
+[K
+[K
+[32;1mCompleted at: 26-Sep-2026 02:16:21
+Duration    : 14m 49s
+CPU hours   : 12.1 (83.8% cached)
+Succeeded   : 1
+Cached      : 21
+[22;39m[K
+
+
+Script done on 2026-09-26 02:16:23+00:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,11 @@
+chr10	Bambu	exon	120354641	120355054	.	-	.	gene_id "ENSG00000220842"; transcript_id "BambuTx63"; exon_number "2";
+chr10	Bambu	exon	120355115	120355223	.	-	.	gene_id "ENSG00000220842"; transcript_id "BambuTx63"; exon_number "1";
+chr19	Bambu	exon	2269525	2269744	.	+	.	gene_id "ENSG00000104904"; transcript_id "BambuTx201"; exon_number "1";
+chr19	Bambu	exon	2271385	2271530	.	+	.	gene_id "ENSG00000104904"; transcript_id "BambuTx201"; exon_number "2";
+chr19	Bambu	exon	2271782	2271954	.	+	.	gene_id "ENSG00000104904"; transcript_id "BambuTx201"; exon_number "3";
+chr19	Bambu	exon	2272735	2272820	.	+	.	gene_id "ENSG00000104904"; transcript_id "BambuTx201"; exon_number "4";
+chr19	Bambu	exon	2272972	2273484	.	+	.	gene_id "ENSG00000104904"; transcript_id "BambuTx201"; exon_number "5";
+chr6	Bambu	exon	144923502	144923754	.	+	.	gene_id "BambuGene1427"; transcript_id "BambuTx391"; exon_number "1";
+chr6	Bambu	exon	144923502	144923754	.	+	.	gene_id "BambuGene1427"; transcript_id "BambuTx392"; exon_number "1";
+chr6	Bambu	exon	144928409	144928820	.	+	.	gene_id "BambuGene1427"; transcript_id "BambuTx391"; exon_number "2";
+chr6	Bambu	exon	144929842	144929987	.	+	.	gene_id "BambuGene1427"; transcript_id "BambuTx392"; exon_number "2";

@@ -1,0 +1,9 @@
+class: RangedSummarizedExperiment 
+dim: 201717 3 
+metadata(2): incompatibleCounts warnings
+assays(4): counts CPM fullLengthCounts uniqueCounts
+rownames(201717): BambuTx1 BambuTx2 ... ENST00000642142 ENST00000642143
+rowData names(11): TXNAME GENEID ... txid eqClassById
+colnames(3): SGNex_A549_directRNA_replicate1_run1
+  SGNex_Hct116_cDNA_replicate1_run6 SGNex_K562_cDNA_replicate1_run3
+colData names(1): name

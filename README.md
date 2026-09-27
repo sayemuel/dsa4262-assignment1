@@ -1,4 +1,4 @@
-# DSA4262 Assignment 1 – long read RNA-Seq
+# DSA4262 Assignment 1 - long read RNA-Seq
 
 Code for Assignment 1 (Introduction to Genomics). The data is from the SG-NEx project: https://github.com/GoekeLab/sg-nex-data
 
@@ -12,12 +12,21 @@ The Nextflow pipeline in `task5/` is based on the workshop pipeline (`workflow_l
 
 ## Files
 
-- `task3/align.sh` – alignment of the 4 samples with minimap2 + samtools (run on RONIN)
-- `task4/run_bambu.R` – Bambu on the 4 bam files, plus the code for the answers to 4.2
-- `task5/main.nf` – the Nextflow pipeline
-- `task5/test_pipeline.sh` – small test on chr22 with a few thousand reads, to check the pipeline before the full run
-- `task5/report_scenario1.html`, `report_scenario2.html` (and timelines) – Nextflow reports for the two runs
-- `task5/qc_summary.tsv` – QC results
+- `task1/commands.sh` - commands for the Unix questions
+- `task2/ucsc_custom_tracks.txt` - bigWig/bigBed tracks loaded into the UCSC browser
+- `task3/align.sh` - alignment of the 4 samples with minimap2 + samtools (run on RONIN)
+- `task3/earlier_attempt/mac_align_cdna.sh` - script for aligning the cDNA samples on my laptop. Not used in the end: I tried Colab first (ran out of RAM), then this, but my laptop didn't have enough disk, so everything went to RONIN
+- `task4/run_bambu.R` - Bambu on the 4 bam files, plus the code for the answers to 4.2
+- `task4/output/` - printed output of the script and the table of novel transcripts
+- `task4/figure_4.4/` - the novel transcripts I looked at for 4.4, as a GTF and UCSC links
+- `task4/scripts/after_task5.sh` - tried to queue the Bambu run after the pipeline overnight; it never started (it waited for a log line that got overwritten), so I ran Bambu the next morning
+- `task5/main.nf` - the Nextflow pipeline
+- `task5/workshop_original.nf` - the workshop pipeline I started from, for comparison
+- `task5/test_pipeline.sh` - small test on chr22 with a few thousand reads, to check the pipeline before the full run
+- `task5/scripts/` - how the two scenarios were launched (`rerun_scenario2.sh` was used after fixing the `--annotations` bug)
+- `task5/logs/` - `nextflow log` of all runs, runtime per task, the Bambu output summary for each scenario, and the raw terminal output of both runs (`cat` them in a terminal, they contain colour codes)
+- `task5/report_scenario1.html`, `report_scenario2.html` (and timelines) - Nextflow reports for the two runs
+- `task5/qc_summary.tsv` - QC results
 
 ## Running it
 

@@ -1,0 +1,5 @@
+sample	reads	mean_length	N50	mean_quality	pct_mapped	qc_status	reason
+SGNex_A549_directRNA_replicate1_run1	536254	971.3	1278	10.10	88.67	PASS	 -
+SGNex_Hct116_cDNA_replicate1_run6	1171939	839.4	909	8.85	80.65	PASS	 -
+SGNex_Hct116_directRNA_replicate6_run1	7753	100.2	90	4.62	1.16	FAIL	 low_read_count short_reads low_quality low_mapping_rate
+SGNex_K562_cDNA_replicate1_run3	1393352	1083.3	1325	10.34	89.82	PASS	 -
